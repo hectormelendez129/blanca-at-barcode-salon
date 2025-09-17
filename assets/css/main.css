@@ -33,6 +33,17 @@ body {
 	line-height: 1;
 }
 
+#barcode-logo{
+	background-image: url(../../images/shirt-logo.png.PNG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	height: 400px;
+	width: 100%;
+	align-self: center;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -2683,9 +2694,12 @@ input, select, textarea {
 
 	#main {
 		margin-left: 35%;
-		max-width: 54em;
+		/* max-width: 54em; */
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
+		background-color: black;
+		display: flex;
+		flex-direction: column;
 	}
 
 		#main > section {
